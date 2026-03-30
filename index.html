@@ -3,34 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Тағамдар Рецепті</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Premium Food Portal</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav class="navbar">
+        <div class="logo">FOOD<span>EXPERT</span></div>
+    </nav>
 
-    <header>
-        <h1>Дәмді Тағамдар Әлемі</h1>
+    <header class="hero">
+        <h1>Элиталық Рецепттер Жинағы</h1>
+        <p>Тек ең үздік тағамдар мен дайындау технологиясы</p>
     </header>
 
-    <main>
-        <div class="grid-container">
-            <div class="card">
-                <img src="https://via.placeholder.com/300x200" alt="Тағам 1">
-                <h2>Қазақша Ет</h2>
-                <p><strong>Рецепт:</strong> Жылқы немесе сиыр еті, қамыр, пияз, сорпа. Етті 2.5 сағат пісіріп, қамырды сорпаға салу керек.</p>
+    <section class="grid-section">
+        <div class="food-card">
+            <div class="image-box">
+                <img src="https://multivarka-receptik.ru/wp-content/uploads/2022/10/beshbarmak-reczept-klassicheskij.jpg" alt="Meat">
             </div>
-            <div class="card">
-                <img src="https://via.placeholder.com/300x200" alt="Тағам 2">
-                <h2>Плау</h2>
-                <p><strong>Рецепт:</strong> Күріш, ет, сәбіз, пияз. Сәбізді көп салып, майға қуырып, күрішті бумен пісіру маңызды.</p>
-            </div>
-            <div class="card">
-                <img src="https://via.placeholder.com/300x200" alt="Тағам 3">
-                <h2>Манты</h2>
-                <p><strong>Рецепт:</strong> Туралған ет, пияз, асқабақ, жұқа жайылған қамыр. Буда 45 минут пісіріледі.</p>
+            <div class="content">
+                <h3>Қазақша Ет (Premium)</h3>                                        
+                <p>Ең таңдаулы жылқы етінен жасалған дәстүрлі тағам. Дайындалу уақыты: 180 мин.</p>
+                <a href="1.html" class="btn">Рецептті ашу</a>
             </div>
         </div>
-    </main>
 
+        <div class="food-card">
+            <div class="image-box">
+                <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=500" alt="Salad">
+            </div>
+            <div class="content">
+                <h3>Авторлық Плау</h3>
+                <p>Ұзын күріш пен балғын еттің мінсіз үйлесімі. Ерекше дәмдеуіштермен.</p>
+                <a href="2.html" class="btn">Рецептті ашу</a>
+            </div>
+        </div>
+
+        <div class="food-card">
+            <div class="image-box">
+                <img src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=500" alt="Wok">
+            </div>
+            <div class="content">
+                <h3>Шығыс Мәзірі</h3>
+                <p>Буда піскен шырынды мантылар. Қолмен туралған ет пен пияз қоспасы.</p>
+                <a href="3.html" class="btn">Рецептті ашу</a>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
