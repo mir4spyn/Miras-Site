@@ -143,3 +143,26 @@ body {
 .btn-back:hover {
     text-decoration: underline;
 }
+
+.content {
+    position: relative; 
+}
+
+.price {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: var(--primary);
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-weight: 800;
+    font-size: 14px;
+    box-shadow: 0 4px 10px rgba(255, 77, 77, 0.4);
+    z-index: 10;
+}
+
+.food-card:hover .price {
+    transform: scale(1.1);
+    background: #ff3333;
+}
